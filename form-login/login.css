@@ -3,7 +3,50 @@
   color: #fff;
   margin-top: 20%;
   height: 100dvh;
-  max-width: 74%;
+  max-width: 81%;
   margin-inline: auto;
   border-radius: 10px;
+}
+
+h1 {
+  text-align: center;
+  font-size: 2.5rem;
+}
+
+.form-control {
+  background: inherit;
+  color: #fff;
+  border: none;
+  border-bottom: 2px solid #fff;
+  border-radius: 0;
+  padding-left: 0;
+}
+
+.form-control:focus{
+  background: inherit;
+  color: #fff;
+  box-shadow: none;
+  border-color: #fff;
+  margin-left: 0;
+}
+
+.btn {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+p {
+  color: #ABABAB;
+  margin-top: 20px;
+}
+
+a {
+  font-weight: bolder;
+  color: #fff;
+  text-decoration-line: none;
+}
+
+a:hover {
+  color: #fff;
+  text-decoration: underline;
 }
