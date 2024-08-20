@@ -10,26 +10,33 @@
   <title>Formulario de login</title>
 </head>
 <body>
-  <div class="conteiner border p-4">
-    ppksd
-  </div>
   
-  <form>
+  <div class="form-conteiner bg-dark">
+   <form>
+     <h1>Login</h1>
+     <!-- input email -->
     <div class="mb-3">
-      <label for="exampleInputEmail1" class="form-label">Email address</label>
+      <label for="exampleInputEmail1" class="form-label">Email</label>
       <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
-      <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
-    </div>
+      
+      <!-- input password -->
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Password</label>
       <input type="password" class="form-control" id="exampleInputPassword1">
     </div>
+    
+    <!-- checkbox -->
     <div class="mb-3 form-check">
       <input type="checkbox" class="form-check-input" id="exampleCheck1">
-      <label class="form-check-label" for="exampleCheck1">Check me out</label>
+      <label class="form-check-label" for="exampleCheck1">Lembre-se de minm</label>
     </div>
-    <button type="submit" class="btn btn-primary">Submit</button>
+    
+    <!-- button submit -->
+    <button type="submit" class="btn btn-light">Iniciar</button>
   </form>
+  
+  </div>
+  </div>
   
   <script src="login.js"></script>
 </body>

@@ -1,3 +1,9 @@
-body {
-  background: #878FE2;
+.form-conteiner {
+  padding: 2em;
+  color: #fff;
+  margin-top: 20%;
+  height: 100dvh;
+  max-width: 74%;
+  margin-inline: auto;
+  border-radius: 10px;
 }
