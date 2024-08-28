@@ -34,6 +34,7 @@ h1 {
 
 h1 > span {
   color: var(--dark);
+  font-weight: 400;
 }
 
 #btnMenu > span {/* button toggle menu */
@@ -63,6 +64,7 @@ h1 > span {
   position: absolute;
   top: 0;
   left: 0;
+  display: none;
 }
 
 .nav-conteiner > nav {
