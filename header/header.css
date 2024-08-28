@@ -1,0 +1,36 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  background: #000000BA;
+  
+}
+
+header-element {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+#btnMenu > span {
+  display: block;
+  width: 28px;
+  height: 2px;
+  border-radius: 9999px;
+  background-color: #92E8D0;
+}
+
+#btnMenu > span:not(:last-child){
+  margin-bottom: 7px;
+}
+
+#btnMenu, #btnMenu > span {
+  transition: all .4s ease-in-out;
+}
+
+#btnMenu.ativo {
+  background: crimson;
+}
